@@ -6,10 +6,10 @@
 #' @return launches a WebApp
 #' @family interactive functions
 #' @export
-shiny_batPlots <- function(lat_default = 47.4,
-                           long_default = 8.52,
+shiny_batPlots <- function(lat_default = 53.81,
+                           long_default = 10.00,
                            customCoord_default = FALSE,
-                           time_zone_default = "UTC+1",
+                           time_zone_default = "UTC+2",
                            option_list = list(
                              shiny.launch.browser = TRUE,
                              shiny.maxRequestSize = 100 * 1024^2,
