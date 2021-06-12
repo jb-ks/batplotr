@@ -235,13 +235,13 @@ shiny_batPlots <- function(lat_default = 53.81,
                       tags$h4("Import/Daten Optionen"),
                       sliderInput("qual",
                         "Minimale Spezies Qualität",
-                        value = 0.8,
+                        value = 0.0,
                         min = 0,
                         max = 1
                       ),
                       textInput("speciesColName",
                         label = "Kolonnenname Spezies",
-                        value = "Auto Class 1"
+                        value = "Verification 1"
                       ),
                       textInput("speciesQualName",
                         label = "Kolonnenname Spezies Qualität",
