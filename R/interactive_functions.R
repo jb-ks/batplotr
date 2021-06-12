@@ -241,7 +241,7 @@ shiny_batPlots <- function(lat_default = 53.81,
                       ),
                       textInput("speciesColName",
                         label = "Kolonnenname Spezies",
-                        value = "Verification 1"
+                        value = "Auto Class 1"
                       ),
                       textInput("speciesQualName",
                         label = "Kolonnenname Spezies Qualität",
@@ -374,10 +374,10 @@ shiny_batPlots <- function(lat_default = 53.81,
 
       observeEvent(input$batscopeVersion, {
         if (input$batscopeVersion == "BatScope4") {
-          species_col_name <- "Verification 1"
+          species_col_name <- "Auto Class 1"
           quality_col_name <- "Auto Class 1 Conf"
         } else {
-          species_col_name <- "Verification1"
+          species_col_name <- "AutoClass1"
           quality_col_name <- "AutoClass1Qual"
         }
 
