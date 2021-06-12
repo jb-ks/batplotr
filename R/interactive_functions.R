@@ -8,7 +8,7 @@
 #' @export
 shiny_batPlots <- function(lat_default = 53.81,
                            long_default = 10.00,
-                           customCoord_default = FALSE,
+                           customCoord_default = TRUE,
                            time_zone_default = "UTC+2",
                            option_list = list(
                              shiny.launch.browser = TRUE,
